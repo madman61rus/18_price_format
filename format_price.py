@@ -24,7 +24,7 @@ def string_to_numeric(value):
             return float(value)
         else :
             return int(value)
-    except:
+    except ValueError:
         return None
 
 if __name__ == '__main__':
